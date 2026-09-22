@@ -1,0 +1,97 @@
+{
+  "protocol": "OOF fits exclude held-out groups; temporal inference uses all 1691 input rows; only 1601 valid labels scored. SAM weights shared with v17.",
+  "baseline17": {
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "gate_method": "local",
+    "gate_strength": 0.45,
+    "threshold": 0.3,
+    "refiner_mix": 0.0,
+    "semantic_weight": 0.0,
+    "pixel_threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7703120698805732,
+        "macro_f1": 0.9042087683376427,
+        "site_miou": 0.5694670221949691,
+        "confusion": [
+          [
+            861,
+            98
+          ],
+          [
+            51,
+            591
+          ]
+        ]
+      },
+      "scene": {
+        "score": 0.660810750947447,
+        "macro_f1": 0.7976672369815995,
+        "site_miou": 0.4555260218962185,
+        "confusion": [
+          [
+            863,
+            96
+          ],
+          [
+            205,
+            437
+          ]
+        ]
+      }
+    },
+    "selection": 0.7046112785206975
+  },
+  "selected": {
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "gate_method": "markov",
+    "gate_strength": 1.0,
+    "threshold": 0.2,
+    "refiner_mix": 0.5,
+    "semantic_weight": 0.5,
+    "pixel_threshold": 0.5,
+    "scores": {
+      "window": {
+        "score": 0.7666842308782053,
+        "macro_f1": 0.8891676533496295,
+        "site_miou": 0.5829590971710689,
+        "confusion": [
+          [
+            825,
+            134
+          ],
+          [
+            40,
+            602
+          ]
+        ]
+      },
+      "scene": {
+        "score": 0.6732042755569612,
+        "macro_f1": 0.801014814070393,
+        "site_miou": 0.48148846778681353,
+        "confusion": [
+          [
+            826,
+            133
+          ],
+          [
+            170,
+            472
+          ]
+        ]
+      }
+    },
+    "selection": 0.7105962576854588
+  }
+}

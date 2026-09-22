@@ -1,0 +1,7604 @@
+[
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.768130719794541,
+        "f1": 0.9002243549794342,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6718000813796358,
+        "f1": 0.8069070230046855,
+        "iou": 0.46913966894206105
+      }
+    },
+    "selection": 0.7199654005870884
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7698247375896541,
+        "f1": 0.9030477179712895,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.666999531659423,
+        "f1": 0.8038748978282093,
+        "iou": 0.46168648240624355
+      }
+    },
+    "selection": 0.7184121346245386
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7698697122812687,
+        "f1": 0.90786264171658,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6659906761251518,
+        "f1": 0.8080726868841077,
+        "iou": 0.4528676599867181
+      }
+    },
+    "selection": 0.7179301942032102
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7662479972005782,
+        "f1": 0.8970864839894963,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6688647121180171,
+        "f1": 0.8053182001355448,
+        "iou": 0.46418448009172564
+      }
+    },
+    "selection": 0.7175563546592977
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7713173303711984,
+        "f1": 0.9055353726071967,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6635901991612972,
+        "f1": 0.8026182193970572,
+        "iou": 0.4550481688076572
+      }
+    },
+    "selection": 0.7174537647662478
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7716907640309494,
+        "f1": 0.9061577620401149,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6627589888476199,
+        "f1": 0.8008137325778846,
+        "iou": 0.4556768732522228
+      }
+    },
+    "selection": 0.7172248764392846
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7688278802650037,
+        "f1": 0.9013862890968722,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6654508187316729,
+        "f1": 0.8011408917061524,
+        "iou": 0.4619157092699536
+      }
+    },
+    "selection": 0.7171393494983382
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7690198151136405,
+        "f1": 0.9064461464371998,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6647017133574191,
+        "f1": 0.8089892220196029,
+        "iou": 0.4482704503641434
+      }
+    },
+    "selection": 0.7168607642355298
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7735356168640772,
+        "f1": 0.9092325167619948,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6599956505444127,
+        "f1": 0.8006885162601626,
+        "iou": 0.4489563519707879
+      }
+    },
+    "selection": 0.716765633704245
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7710895558810944,
+        "f1": 0.9051557484570233,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6623077184463368,
+        "f1": 0.8058034646530222,
+        "iou": 0.44706409913630896
+      }
+    },
+    "selection": 0.7166986371637156
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7687478725482715,
+        "f1": 0.9059929088282515,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6645400559563162,
+        "f1": 0.805654986602715,
+        "iou": 0.4528676599867181
+      }
+    },
+    "selection": 0.7166439642522938
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7706182244934338,
+        "f1": 0.9091101620701887,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6626651981169802,
+        "f1": 0.8056656209043807,
+        "iou": 0.44816456393587956
+      }
+    },
+    "selection": 0.716641711305207
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7691122493680429,
+        "f1": 0.9045761930996266,
+        "iou": 0.5659163337706674
+      },
+      "scene": {
+        "score": 0.664138780745791,
+        "f1": 0.8083904587281001,
+        "iou": 0.4477612637723275
+      }
+    },
+    "selection": 0.716625515056917
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7688040159231068,
+        "f1": 0.9013465151937106,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6643750273945865,
+        "f1": 0.800780626453567,
+        "iou": 0.4597666288061158
+      }
+    },
+    "selection": 0.7165895216588467
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7672665590170348,
+        "f1": 0.8987840870169239,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6656958598468725,
+        "f1": 0.8008706467661691,
+        "iou": 0.4629336794679276
+      }
+    },
+    "selection": 0.7164812094319537
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7698697122812687,
+        "f1": 0.90786264171658,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6626588175359808,
+        "f1": 0.805654986602715,
+        "iou": 0.44816456393587956
+      }
+    },
+    "selection": 0.7162642649086247
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7709194579655256,
+        "f1": 0.9048722519310755,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6615679604530716,
+        "f1": 0.803697483823614,
+        "iou": 0.4483736753972582
+      }
+    },
+    "selection": 0.7162437092092986
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7613125115082707,
+        "f1": 0.8886668030971034,
+        "iou": 0.5702810741250217
+      },
+      "scene": {
+        "score": 0.6706563903942367,
+        "f1": 0.7975051571292415,
+        "iou": 0.4803832402917295
+      }
+    },
+    "selection": 0.7159844509512537
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7709678805059854,
+        "f1": 0.9096929220911081,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6608246941897531,
+        "f1": 0.8056629207740518,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.7158962873478693
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7669190728072139,
+        "f1": 0.8982049433338892,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.664805418198344,
+        "f1": 0.7976069536614612,
+        "iou": 0.4656031150036684
+      }
+    },
+    "selection": 0.715862245502779
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7701977164493319,
+        "f1": 0.9036693494040857,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6614800958507875,
+        "f1": 0.8006696278349822,
+        "iou": 0.4526957978744955
+      }
+    },
+    "selection": 0.7158389061500596
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7683488631037244,
+        "f1": 0.9053278930873396,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6631600565098954,
+        "f1": 0.8064197939403968,
+        "iou": 0.4482704503641434
+      }
+    },
+    "selection": 0.71575445980681
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7711080324423056,
+        "f1": 0.9055353726071967,
+        "iou": 0.5694670221949691
+      },
+      "scene": {
+        "score": 0.6603256774574289,
+        "f1": 0.7999235875799522,
+        "iou": 0.4509288122736439
+      }
+    },
+    "selection": 0.7157168549498673
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7701730376134257,
+        "f1": 0.9036282180109089,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6610210303492445,
+        "f1": 0.8027859336505687,
+        "iou": 0.4483736753972582
+      }
+    },
+    "selection": 0.7155970339813351
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7665957098711476,
+        "f1": 0.8976660051071119,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6645821045827877,
+        "f1": 0.7987420912420913,
+        "iou": 0.4633421245938323
+      }
+    },
+    "selection": 0.7155889072269677
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7611498633068977,
+        "f1": 0.8885895941666955,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.669954254406297,
+        "f1": 0.8003000193666769,
+        "iou": 0.4744356069657272
+      }
+    },
+    "selection": 0.7155520588565973
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7680495086913293,
+        "f1": 0.9055568664464371,
+        "iou": 0.5617884720586678
+      },
+      "scene": {
+        "score": 0.6628216242709437,
+        "f1": 0.8089911375760361,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.7154355664811365
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7681742882691402,
+        "f1": 0.9006042928948021,
+        "iou": 0.5695292813306474
+      },
+      "scene": {
+        "score": 0.6626528279613766,
+        "f1": 0.798197769541554,
+        "iou": 0.4593354155911107
+      }
+    },
+    "selection": 0.7154135581152584
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7721197570396724,
+        "f1": 0.9072391927125245,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6586062556212352,
+        "f1": 0.799025611622092,
+        "iou": 0.44797722161995013
+      }
+    },
+    "selection": 0.7153630063304538
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7704963388075456,
+        "f1": 0.9041670533344421,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6601499864259366,
+        "f1": 0.8018933807949826,
+        "iou": 0.4475348948723676
+      }
+    },
+    "selection": 0.7153231626167411
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7665226246854502,
+        "f1": 0.897544196464283,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6640784134430273,
+        "f1": 0.8002705344808378,
+        "iou": 0.45979023188631163
+      }
+    },
+    "selection": 0.7153005190642387
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7658282049094509,
+        "f1": 0.8963868301709508,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6646923436148264,
+        "f1": 0.7962296372360393,
+        "iou": 0.4673864031830072
+      }
+    },
+    "selection": 0.7152602742621387
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7704158811971906,
+        "f1": 0.9043993996417217,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6600900951615145,
+        "f1": 0.8025887196489918,
+        "iou": 0.44634215843029873
+      }
+    },
+    "selection": 0.7152529881793526
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7680352874700708,
+        "f1": 0.9000653011053172,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6623903931320323,
+        "f1": 0.8000393971399353,
+        "iou": 0.4559168871201777
+      }
+    },
+    "selection": 0.7152128403010516
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7660396304046581,
+        "f1": 0.8970465297873318,
+        "iou": 0.5695292813306474
+      },
+      "scene": {
+        "score": 0.6643293906442248,
+        "f1": 0.7995342081538616,
+        "iou": 0.4615221643797696
+      }
+    },
+    "selection": 0.7151845105244414
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7658037570591392,
+        "f1": 0.8963460837537647,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6644483756545162,
+        "f1": 0.7970085753400138,
+        "iou": 0.4656080761262698
+      }
+    },
+    "selection": 0.7151260663568277
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7679083269360266,
+        "f1": 0.9002201425397816,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6621254299350968,
+        "f1": 0.7999358303218616,
+        "iou": 0.45540982935494984
+      }
+    },
+    "selection": 0.7150168784355617
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7694452561959675,
+        "f1": 0.9071552149077449,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6604054073457679,
+        "f1": 0.8047487710608278,
+        "iou": 0.4438903617731783
+      }
+    },
+    "selection": 0.7149253317708677
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7643478389959483,
+        "f1": 0.8986595195743794,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6653792334664365,
+        "f1": 0.8068382774796665,
+        "iou": 0.4531906674465914
+      }
+    },
+    "selection": 0.7148635362311924
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7658037570591392,
+        "f1": 0.8963460837537647,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6636591075339372,
+        "f1": 0.7976780767478442,
+        "iou": 0.46263065371307666
+      }
+    },
+    "selection": 0.7147314322965381
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7663134362893772,
+        "f1": 0.8975028729285305,
+        "iou": 0.5695292813306474
+      },
+      "scene": {
+        "score": 0.6631031966384242,
+        "f1": 0.7993414382179858,
+        "iou": 0.45874583426908194
+      }
+    },
+    "selection": 0.7147083164639008
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7692811088738407,
+        "f1": 0.9072480783620713,
+        "iou": 0.5623306546414948
+      },
+      "scene": {
+        "score": 0.6600991217881789,
+        "f1": 0.8022643062988885,
+        "iou": 0.44685134502211465
+      }
+    },
+    "selection": 0.7146901153310098
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.769515432683431,
+        "f1": 0.9076386180447218,
+        "iou": 0.5623306546414948
+      },
+      "scene": {
+        "score": 0.659743616346306,
+        "f1": 0.802480053283271,
+        "iou": 0.4456389609408583
+      }
+    },
+    "selection": 0.7146295245148685
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7654649763864576,
+        "f1": 0.9005214152252283,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6635835902166887,
+        "f1": 0.8069809360973126,
+        "iou": 0.4484875713957529
+      }
+    },
+    "selection": 0.7145242833015731
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7687328554799548,
+        "f1": 0.901594356779662,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.660282356515073,
+        "f1": 0.7996308633625566,
+        "iou": 0.4512595962438478
+      }
+    },
+    "selection": 0.714507605997514
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7667122338493942,
+        "f1": 0.906044030540901,
+        "iou": 0.5577145388121341
+      },
+      "scene": {
+        "score": 0.6619062227396054,
+        "f1": 0.8074654683571391,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.7143092282944998
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7683856743745319,
+        "f1": 0.9010157216039569,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6601852168799425,
+        "f1": 0.7999358303218616,
+        "iou": 0.45055929671706374
+      }
+    },
+    "selection": 0.7142854456272372
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7656160119837427,
+        "f1": 0.9042169940981486,
+        "iou": 0.5577145388121341
+      },
+      "scene": {
+        "score": 0.6629142715473152,
+        "f1": 0.8091455497033221,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.714265141765529
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7693569556283686,
+        "f1": 0.9026345236936849,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.658962686345296,
+        "f1": 0.8022096327279786,
+        "iou": 0.4440922667712721
+      }
+    },
+    "selection": 0.7141598209868323
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7663677230327692,
+        "f1": 0.9023924352936189,
+        "iou": 0.5623306546414948
+      },
+      "scene": {
+        "score": 0.661902719998433,
+        "f1": 0.804883420104553,
+        "iou": 0.4474316698392528
+      }
+    },
+    "selection": 0.7141352215156012
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7690965316523168,
+        "f1": 0.9065740073349938,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6590117954141324,
+        "f1": 0.8026414228146839,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.7140541635332246
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7663149589061244,
+        "f1": 0.9019971712915085,
+        "iou": 0.5627916403280484
+      },
+      "scene": {
+        "score": 0.6617739089218779,
+        "f1": 0.8044533966703791,
+        "iou": 0.44775467729912616
+      }
+    },
+    "selection": 0.7140444339140012
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7638195455686213,
+        "f1": 0.8975851591236206,
+        "iou": 0.5631711252361223
+      },
+      "scene": {
+        "score": 0.6641674633251312,
+        "f1": 0.7985923512897929,
+        "iou": 0.4625301313781388
+      }
+    },
+    "selection": 0.7139935044468763
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.767637313311138,
+        "f1": 0.9024844086626563,
+        "iou": 0.5653666702838606
+      },
+      "scene": {
+        "score": 0.6602829022655888,
+        "f1": 0.8029093744229467,
+        "iou": 0.44634319402955197
+      }
+    },
+    "selection": 0.7139601077883635
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7681246385109745,
+        "f1": 0.9009294917128492,
+        "iou": 0.5689173587081624
+      },
+      "scene": {
+        "score": 0.6596872122558483,
+        "f1": 0.7987335898214707,
+        "iou": 0.45111764590741465
+      }
+    },
+    "selection": 0.7139059253834114
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7622610598280399,
+        "f1": 0.8904415883685992,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6655041330588981,
+        "f1": 0.7978995673395839,
+        "iou": 0.46691098163786937
+      }
+    },
+    "selection": 0.713882596443469
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7687069422410951,
+        "f1": 0.9015511680482291,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6588618240482368,
+        "f1": 0.797681382379605,
+        "iou": 0.45063248655118465
+      }
+    },
+    "selection": 0.713784383144666
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7678919259359973,
+        "f1": 0.9049327734656657,
+        "iou": 0.5623306546414948
+      },
+      "scene": {
+        "score": 0.6596373553621607,
+        "f1": 0.8042432097446583,
+        "iou": 0.44272857378841435
+      }
+    },
+    "selection": 0.713764640649079
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7693480558203557,
+        "f1": 0.9026196906803301,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6581394867512882,
+        "f1": 0.7977986061410929,
+        "iou": 0.4486508076665813
+      }
+    },
+    "selection": 0.7137437712858219
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7632316535288638,
+        "f1": 0.896799210462572,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6642371993919391,
+        "f1": 0.8056311524336575,
+        "iou": 0.45214626982936174
+      }
+    },
+    "selection": 0.7137344264604015
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.76760168043233,
+        "f1": 0.9040825886350157,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6598001235775315,
+        "f1": 0.8042991517970275,
+        "iou": 0.4430515812482877
+      }
+    },
+    "selection": 0.7137009020049307
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7593395092785132,
+        "f1": 0.8901184319734405,
+        "iou": 0.5631711252361223
+      },
+      "scene": {
+        "score": 0.6680212496638596,
+        "f1": 0.8048435245534604,
+        "iou": 0.46278783732945833
+      }
+    },
+    "selection": 0.7136803794711863
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7684234715568802,
+        "f1": 0.9055113590427681,
+        "iou": 0.5627916403280484
+      },
+      "scene": {
+        "score": 0.658813116245296,
+        "f1": 0.8028694778832173,
+        "iou": 0.44272857378841435
+      }
+    },
+    "selection": 0.7136182939010881
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7636755626477157,
+        "f1": 0.90359307742452,
+        "iou": 0.5537992904825094
+      },
+      "scene": {
+        "score": 0.6635506457856654,
+        "f1": 0.8102061734339057,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.7136131042166906
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7679083269360266,
+        "f1": 0.9002201425397816,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6593046826260894,
+        "f1": 0.8006774772386089,
+        "iou": 0.44724549070731023
+      }
+    },
+    "selection": 0.713606504781058
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7694586391859363,
+        "f1": 0.9031528261711188,
+        "iou": 0.5689173587081624
+      },
+      "scene": {
+        "score": 0.6574874551646941,
+        "f1": 0.79836280648815,
+        "iou": 0.4461744281795103
+      }
+    },
+    "selection": 0.7134730471753152
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7652632700465181,
+        "f1": 0.9055113590427681,
+        "iou": 0.5548911365521432
+      },
+      "scene": {
+        "score": 0.6616100400229303,
+        "f1": 0.8071498597608626,
+        "iou": 0.443300310416032
+      }
+    },
+    "selection": 0.7134366550347242
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7692950178418162,
+        "f1": 0.9032591914291868,
+        "iou": 0.5683487574607604
+      },
+      "scene": {
+        "score": 0.6572248239168207,
+        "f1": 0.7997175365459741,
+        "iou": 0.4434857549730906
+      }
+    },
+    "selection": 0.7132599208793184
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7654809399383881,
+        "f1": 0.8958080552191795,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6609696351608951,
+        "f1": 0.797598568386936,
+        "iou": 0.4560262353218339
+      }
+    },
+    "selection": 0.7132252875496417
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7600393544842493,
+        "f1": 0.8867387461289482,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6663846086301344,
+        "f1": 0.7958793045701282,
+        "iou": 0.47214256472014365
+      }
+    },
+    "selection": 0.7132119815571918
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7685195595441093,
+        "f1": 0.9012388635532528,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6578898127247584,
+        "f1": 0.7997298383085691,
+        "iou": 0.44512977434904244
+      }
+    },
+    "selection": 0.7132046861344339
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7669159848897541,
+        "f1": 0.9020100920067723,
+        "iou": 0.5642748242142267
+      },
+      "scene": {
+        "score": 0.6593494247280433,
+        "f1": 0.8028155306357982,
+        "iou": 0.4441502658664107
+      }
+    },
+    "selection": 0.7131327048088987
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7636730855131881,
+        "f1": 0.8927949645105129,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6624376642024847,
+        "f1": 0.7920193565122646,
+        "iou": 0.4680651257378147
+      }
+    },
+    "selection": 0.7130553748578364
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7674280153822453,
+        "f1": 0.9024844086626563,
+        "iou": 0.5648434254616286
+      },
+      "scene": {
+        "score": 0.6586636257522042,
+        "f1": 0.7999192355431621,
+        "iou": 0.44678021106576726
+      }
+    },
+    "selection": 0.7130458205672248
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7657786201912354,
+        "f1": 0.8966706312984629,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6602918936263649,
+        "f1": 0.7955580062106522,
+        "iou": 0.45739272474993375
+      }
+    },
+    "selection": 0.7130352569088001
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7689745441870628,
+        "f1": 0.9019971712915085,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6570862762892307,
+        "f1": 0.7976399261710891,
+        "iou": 0.44625580146644317
+      }
+    },
+    "selection": 0.7130304102381467
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7671520531814555,
+        "f1": 0.9016756417798522,
+        "iou": 0.5653666702838606
+      },
+      "scene": {
+        "score": 0.6587048074309121,
+        "f1": 0.8004507612699955,
+        "iou": 0.44608587667228716
+      }
+    },
+    "selection": 0.7129284303061838
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7688343904834448,
+        "f1": 0.9017635817854787,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6568031174202553,
+        "f1": 0.7958652959438743,
+        "iou": 0.448209849634827
+      }
+    },
+    "selection": 0.71281875395185
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7680904611884758,
+        "f1": 0.9005236996271968,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6575280197411533,
+        "f1": 0.7991268500025606,
+        "iou": 0.44512977434904244
+      }
+    },
+    "selection": 0.7128092404648145
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7684919282679977,
+        "f1": 0.9011928114264002,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6569455820671412,
+        "f1": 0.7968323593616009,
+        "iou": 0.4471154161254516
+      }
+    },
+    "selection": 0.7127187551675694
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7691556562756577,
+        "f1": 0.9022990247725001,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6561589447666483,
+        "f1": 0.7965026480500722,
+        "iou": 0.4456433898415124
+      }
+    },
+    "selection": 0.712657300521153
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7647405082632039,
+        "f1": 0.8949404447517437,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6605597341847403,
+        "f1": 0.7983800146016247,
+        "iou": 0.4538293135594139
+      }
+    },
+    "selection": 0.7126501212239722
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7687531999375034,
+        "f1": 0.9016282642089094,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6565148344984938,
+        "f1": 0.7977078164077274,
+        "iou": 0.4447253616346435
+      }
+    },
+    "selection": 0.7126340172179986
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7661670876831602,
+        "f1": 0.9007619299957825,
+        "iou": 0.5642748242142267
+      },
+      "scene": {
+        "score": 0.6590857230088654,
+        "f1": 0.8023760277705019,
+        "iou": 0.4441502658664107
+      }
+    },
+    "selection": 0.7126264053460127
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7697482507294982,
+        "f1": 0.9032866821955675,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6554816808584328,
+        "f1": 0.7956761447751288,
+        "iou": 0.4451899849833889
+      }
+    },
+    "selection": 0.7126149657939655
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7674481252716265,
+        "f1": 0.9095192267424865,
+        "iou": 0.5543414730653364
+      },
+      "scene": {
+        "score": 0.6576202152526566,
+        "f1": 0.801268192773577,
+        "iou": 0.44214824897127614
+      }
+    },
+    "selection": 0.7125341702621415
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7663510116308583,
+        "f1": 0.9058084358345455,
+        "iou": 0.5571648753253273
+      },
+      "scene": {
+        "score": 0.6587149972681465,
+        "f1": 0.8027059462546347,
+        "iou": 0.44272857378841435
+      }
+    },
+    "selection": 0.7125330044495024
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7645296522661484,
+        "f1": 0.899021660224882,
+        "iou": 0.5627916403280484
+      },
+      "scene": {
+        "score": 0.6602319605904746,
+        "f1": 0.801883482784707,
+        "iou": 0.44775467729912616
+      }
+    },
+    "selection": 0.7123808064283115
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7679083269360266,
+        "f1": 0.9002201425397816,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6567523569648472,
+        "f1": 0.7945089191727372,
+        "iou": 0.45011751365301217
+      }
+    },
+    "selection": 0.712330341950437
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7677171837800181,
+        "f1": 0.9011424071543589,
+        "iou": 0.5675793487185068
+      },
+      "scene": {
+        "score": 0.6568141055817738,
+        "f1": 0.7961826667880714,
+        "iou": 0.4477612637723275
+      }
+    },
+    "selection": 0.7122656446808959
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7609891259161412,
+        "f1": 0.9062399344089485,
+        "iou": 0.5431129131769306
+      },
+      "scene": {
+        "score": 0.6635402006248983,
+        "f1": 0.8101887648326271,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.7122646632705197
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7691432804299142,
+        "f1": 0.9025749524966702,
+        "iou": 0.5689957723297803
+      },
+      "scene": {
+        "score": 0.655349886926869,
+        "f1": 0.7941521573275568,
+        "iou": 0.4471464813258371
+      }
+    },
+    "selection": 0.7122465836783916
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7673167850481515,
+        "f1": 0.9022990247725001,
+        "iou": 0.5648434254616286
+      },
+      "scene": {
+        "score": 0.6570684383341203,
+        "f1": 0.7992433531268389,
+        "iou": 0.44380606614504237
+      }
+    },
+    "selection": 0.7121926116911359
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7643150610653788,
+        "f1": 0.9021078611010441,
+        "iou": 0.5576258610118809
+      },
+      "scene": {
+        "score": 0.6600672418501812,
+        "f1": 0.8039174819134467,
+        "iou": 0.4442918817552828
+      }
+    },
+    "selection": 0.71219115145778
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7628851225554029,
+        "f1": 0.8962216588401372,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.661449661248039,
+        "f1": 0.7979204491121075,
+        "iou": 0.45674347945193633
+      }
+    },
+    "selection": 0.7121673919017208
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7613123045420367,
+        "f1": 0.8891676533496295,
+        "iou": 0.5695292813306474
+      },
+      "scene": {
+        "score": 0.662973996295076,
+        "f1": 0.7938095646947712,
+        "iou": 0.46672064369553357
+      }
+    },
+    "selection": 0.7121431504185564
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7689208105368898,
+        "f1": 0.9022041693416294,
+        "iou": 0.5689957723297803
+      },
+      "scene": {
+        "score": 0.6553383480230487,
+        "f1": 0.7961690688575664,
+        "iou": 0.4440922667712721
+      }
+    },
+    "selection": 0.7121295792799692
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7675505348079982,
+        "f1": 0.9004295332803485,
+        "iou": 0.5682320370994728
+      },
+      "scene": {
+        "score": 0.6566374489297886,
+        "f1": 0.7963938819753845,
+        "iou": 0.4470027993613949
+      }
+    },
+    "selection": 0.7120939918688933
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7644801306511991,
+        "f1": 0.8944473635315671,
+        "iou": 0.5695292813306474
+      },
+      "scene": {
+        "score": 0.6595391554436936,
+        "f1": 0.7957006792474934,
+        "iou": 0.4552968697379937
+      }
+    },
+    "selection": 0.7120096430474463
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7655234983521078,
+        "f1": 0.9000381109921831,
+        "iou": 0.5637515793919948
+      },
+      "scene": {
+        "score": 0.6583884608523739,
+        "f1": 0.801268192773577,
+        "iou": 0.4440688629705693
+      }
+    },
+    "selection": 0.7119559796022408
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7666160487033475,
+        "f1": 0.8999478683055828,
+        "iou": 0.5666183192999945
+      },
+      "scene": {
+        "score": 0.6572818597697048,
+        "f1": 0.794983605562988,
+        "iou": 0.45072924107977996
+      }
+    },
+    "selection": 0.7119489542365262
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7629314014870194,
+        "f1": 0.8915588244668984,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6609259297772601,
+        "f1": 0.7897894940701862,
+        "iou": 0.4676305833378708
+      }
+    },
+    "selection": 0.7119286656321397
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7631889114172659,
+        "f1": 0.9099062435774894,
+        "iou": 0.5431129131769306
+      },
+      "scene": {
+        "score": 0.6605777043554482,
+        "f1": 0.8070665260882768,
+        "iou": 0.44084447175620545
+      }
+    },
+    "selection": 0.711883307886357
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7652216507268619,
+        "f1": 0.9058084358345455,
+        "iou": 0.5543414730653364
+      },
+      "scene": {
+        "score": 0.6585170461776668,
+        "f1": 0.8023760277705019,
+        "iou": 0.44272857378841435
+      }
+    },
+    "selection": 0.7118693484522643
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7659402888584192,
+        "f1": 0.9060905269332291,
+        "iou": 0.5557149317462046
+      },
+      "scene": {
+        "score": 0.6577212967886099,
+        "f1": 0.8030115554446455,
+        "iou": 0.4397859088045563
+      }
+    },
+    "selection": 0.7118307928235146
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7654931355049238,
+        "f1": 0.8999875062468765,
+        "iou": 0.5637515793919948
+      },
+      "scene": {
+        "score": 0.6581513265414076,
+        "f1": 0.8010987949146225,
+        "iou": 0.4437301239815853
+      }
+    },
+    "selection": 0.7118222310231657
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7653962914449524,
+        "f1": 0.8968391276752721,
+        "iou": 0.5682320370994728
+      },
+      "scene": {
+        "score": 0.6580994269389165,
+        "f1": 0.7960204817191303,
+        "iou": 0.45121784476859594
+      }
+    },
+    "selection": 0.7117478591919344
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7658126918953969,
+        "f1": 0.8978239744526821,
+        "iou": 0.5677957680594692
+      },
+      "scene": {
+        "score": 0.6576719461886921,
+        "f1": 0.7923956528718523,
+        "iou": 0.45558638616395164
+      }
+    },
+    "selection": 0.7117423190420444
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7680385139999178,
+        "f1": 0.9004371209796004,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6554399270721162,
+        "f1": 0.7945286906008309,
+        "iou": 0.4468067817790441
+      }
+    },
+    "selection": 0.711739220536017
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7681777507652012,
+        "f1": 0.9026345236936849,
+        "iou": 0.5664925913724758
+      },
+      "scene": {
+        "score": 0.6552273674642259,
+        "f1": 0.7962641958494122,
+        "iou": 0.4436721248864466
+      }
+    },
+    "selection": 0.7117025591147136
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7643478389959483,
+        "f1": 0.8986595195743794,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6590559792974966,
+        "f1": 0.7962995205314333,
+        "iou": 0.4531906674465914
+      }
+    },
+    "selection": 0.7117019091467225
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7636550290369226,
+        "f1": 0.9022817605640681,
+        "iou": 0.5557149317462046
+      },
+      "scene": {
+        "score": 0.6596727350119046,
+        "f1": 0.8033543811089006,
+        "iou": 0.4441502658664107
+      }
+    },
+    "selection": 0.7116638820244137
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7650775136056771,
+        "f1": 0.9036859391259104,
+        "iou": 0.5571648753253273
+      },
+      "scene": {
+        "score": 0.658211356085006,
+        "f1": 0.8032546196583684,
+        "iou": 0.4406464607249625
+      }
+    },
+    "selection": 0.7116444348453416
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7629599027570951,
+        "f1": 0.8919727689082291,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6602130183120121,
+        "f1": 0.7926262230399809,
+        "iou": 0.46159321122005875
+      }
+    },
+    "selection": 0.7115864605345537
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7647299563247986,
+        "f1": 0.8979876435669119,
+        "iou": 0.5648434254616286
+      },
+      "scene": {
+        "score": 0.65839248482453,
+        "f1": 0.8010968701289886,
+        "iou": 0.44433590686784225
+      }
+    },
+    "selection": 0.7115612205746643
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7636538510084389,
+        "f1": 0.8975028729285305,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6594556352823842,
+        "f1": 0.7959833830313225,
+        "iou": 0.45466401365897646
+      }
+    },
+    "selection": 0.7115547431454115
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7638114923098582,
+        "f1": 0.8933329662959988,
+        "iou": 0.5695292813306474
+      },
+      "scene": {
+        "score": 0.6592445966629688,
+        "f1": 0.7889867319033003,
+        "iou": 0.4646313938024716
+      }
+    },
+    "selection": 0.7115280444864135
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7655234983521078,
+        "f1": 0.9000381109921831,
+        "iou": 0.5637515793919948
+      },
+      "scene": {
+        "score": 0.6574793918080317,
+        "f1": 0.7999789036923294,
+        "iou": 0.4437301239815853
+      }
+    },
+    "selection": 0.7115014450800697
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7663361871382961,
+        "f1": 0.8994638199207806,
+        "iou": 0.5666447379645694
+      },
+      "scene": {
+        "score": 0.6566416422861239,
+        "f1": 0.7943844756184089,
+        "iou": 0.4500273922876964
+      }
+    },
+    "selection": 0.71148891471221
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7583916775922193,
+        "f1": 0.9019108538690784,
+        "iou": 0.5431129131769306
+      },
+      "scene": {
+        "score": 0.6645528165709375,
+        "f1": 0.8118764580760258,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.7114722470815784
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7616172321528082,
+        "f1": 0.9019606570859543,
+        "iou": 0.5511020947530889
+      },
+      "scene": {
+        "score": 0.6611651096579592,
+        "f1": 0.8080455349257951,
+        "iou": 0.44084447175620545
+      }
+    },
+    "selection": 0.7113911709053837
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7655154941931566,
+        "f1": 0.8996759408457764,
+        "iou": 0.5642748242142267
+      },
+      "scene": {
+        "score": 0.6571592221049471,
+        "f1": 0.7996310386564958,
+        "iou": 0.44345149727762445
+      }
+    },
+    "selection": 0.7113373581490519
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7636003832981543,
+        "f1": 0.893040236476661,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6589208934052392,
+        "f1": 0.793762881768784,
+        "iou": 0.456657910859922
+      }
+    },
+    "selection": 0.7112606383516967
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7681204914443408,
+        "f1": 0.9025298588009226,
+        "iou": 0.5665064404094681
+      },
+      "scene": {
+        "score": 0.6541872967558805,
+        "f1": 0.7945307446688364,
+        "iou": 0.4436721248864466
+      }
+    },
+    "selection": 0.7111538941001107
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7659848349625733,
+        "f1": 0.9000883406545312,
+        "iou": 0.5648295764246364
+      },
+      "scene": {
+        "score": 0.6561592518506882,
+        "f1": 0.7982445161559479,
+        "iou": 0.4430313553927989
+      }
+    },
+    "selection": 0.7110720434066308
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7669525935215971,
+        "f1": 0.8991364103359374,
+        "iou": 0.5686768683000867
+      },
+      "scene": {
+        "score": 0.6551843737232239,
+        "f1": 0.7934952335394814,
+        "iou": 0.4477180839988379
+      }
+    },
+    "selection": 0.7110684836224105
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.765190698522473,
+        "f1": 0.8956907618505255,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6569266850537527,
+        "f1": 0.7945089191727372,
+        "iou": 0.4505533338752758
+      }
+    },
+    "selection": 0.7110586917881129
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7611109500983877,
+        "f1": 0.9030604262595797,
+        "iou": 0.5481867358565997
+      },
+      "scene": {
+        "score": 0.6609959531463994,
+        "f1": 0.806507539385056,
+        "iou": 0.44272857378841435
+      }
+    },
+    "selection": 0.7110534516223935
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.765740855633475,
+        "f1": 0.8971591912768384,
+        "iou": 0.5686133521684299
+      },
+      "scene": {
+        "score": 0.6563648759154177,
+        "f1": 0.7907450882450882,
+        "iou": 0.454794557420912
+      }
+    },
+    "selection": 0.7110528657744464
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7668692751950521,
+        "f1": 0.8984883896381574,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.655163750035146,
+        "f1": 0.7937759229203699,
+        "iou": 0.44724549070731023
+      }
+    },
+    "selection": 0.7110165126150991
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7650675854952566,
+        "f1": 0.8964035167043456,
+        "iou": 0.568063688681623
+      },
+      "scene": {
+        "score": 0.6569455121216412,
+        "f1": 0.7933077552677987,
+        "iou": 0.45240214740240475
+      }
+    },
+    "selection": 0.7110065488084489
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7658008583710831,
+        "f1": 0.9005096103818035,
+        "iou": 0.5637377303550025
+      },
+      "scene": {
+        "score": 0.6561106645925654,
+        "f1": 0.7981635373924096,
+        "iou": 0.4430313553927989
+      }
+    },
+    "selection": 0.7109557614818243
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7669420115844903,
+        "f1": 0.8986096169538877,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6549355099340344,
+        "f1": 0.7948628147743192,
+        "iou": 0.4450445526736072
+      }
+    },
+    "selection": 0.7109387607592623
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7648439001108581,
+        "f1": 0.8959184754517816,
+        "iou": 0.5682320370994728
+      },
+      "scene": {
+        "score": 0.6570172383314467,
+        "f1": 0.7927386136283394,
+        "iou": 0.45343517538610756
+      }
+    },
+    "selection": 0.7109305692211524
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7637218721979849,
+        "f1": 0.9027512284053214,
+        "iou": 0.5551778378869804
+      },
+      "scene": {
+        "score": 0.6580365433473543,
+        "f1": 0.8017063462573939,
+        "iou": 0.44253183898229487
+      }
+    },
+    "selection": 0.7108792077726696
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7647225836276521,
+        "f1": 0.8958285135916715,
+        "iou": 0.568063688681623
+      },
+      "scene": {
+        "score": 0.6569693011096056,
+        "f1": 0.7898907980834495,
+        "iou": 0.4575870556488397
+      }
+    },
+    "selection": 0.7108459423686289
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7693746859764066,
+        "f1": 0.9026640742737482,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6522030263792743,
+        "f1": 0.7992871982233685,
+        "iou": 0.431576768613133
+      }
+    },
+    "selection": 0.7107888561778404
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7635867757587179,
+        "f1": 0.9018606813093578,
+        "iou": 0.5561759174327582
+      },
+      "scene": {
+        "score": 0.657955048287547,
+        "f1": 0.8032546196583684,
+        "iou": 0.44000569123131483
+      }
+    },
+    "selection": 0.7107709120231325
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7610020349372055,
+        "f1": 0.8930831794764749,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.660494694781282,
+        "f1": 0.7986973796710758,
+        "iou": 0.4531906674465914
+      }
+    },
+    "selection": 0.7107483648592438
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7649330780795207,
+        "f1": 0.8960506276351861,
+        "iou": 0.5682567537460229
+      },
+      "scene": {
+        "score": 0.6565071063677179,
+        "f1": 0.786989613525669,
+        "iou": 0.4607833456307914
+      }
+    },
+    "selection": 0.7107200922236193
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7628458891073678,
+        "f1": 0.8923342470666598,
+        "iou": 0.5686133521684299
+      },
+      "scene": {
+        "score": 0.6585679655465841,
+        "f1": 0.7873967278057086,
+        "iou": 0.4653248221578976
+      }
+    },
+    "selection": 0.7107069273269759
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7655553477443213,
+        "f1": 0.8997813150364204,
+        "iou": 0.5642163968061727
+      },
+      "scene": {
+        "score": 0.6558517075463868,
+        "f1": 0.7977319423154454,
+        "iou": 0.4430313553927989
+      }
+    },
+    "selection": 0.710703527645354
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7625365923536914,
+        "f1": 0.8909008092446851,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6588668936451494,
+        "f1": 0.7876323850520547,
+        "iou": 0.4657186565347916
+      }
+    },
+    "selection": 0.7107017429994205
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7638932550172728,
+        "f1": 0.8935283560085252,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.657296094745198,
+        "f1": 0.7924377733723529,
+        "iou": 0.4545835768044656
+      }
+    },
+    "selection": 0.7105946748812354
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.757672492729194,
+        "f1": 0.9007122124307031,
+        "iou": 0.5431129131769306
+      },
+      "scene": {
+        "score": 0.6634575826980823,
+        "f1": 0.8100510682879338,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.7105650377136381
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7634532605530844,
+        "f1": 0.9009788507049223,
+        "iou": 0.5571648753253273
+      },
+      "scene": {
+        "score": 0.6576274355376159,
+        "f1": 0.8004113943776102,
+        "iou": 0.44345149727762445
+      }
+    },
+    "selection": 0.7105403480453502
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7648318201249015,
+        "f1": 0.8972211735873206,
+        "iou": 0.5662477899312729
+      },
+      "scene": {
+        "score": 0.6562028428642255,
+        "f1": 0.7932747524584259,
+        "iou": 0.450594978472925
+      }
+    },
+    "selection": 0.7105173314945634
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7613650891996233,
+        "f1": 0.9068665398814185,
+        "iou": 0.5431129131769306
+      },
+      "scene": {
+        "score": 0.6596316307284122,
+        "f1": 0.8055733553821508,
+        "iou": 0.4407190437478046
+      }
+    },
+    "selection": 0.7104983599640178
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7672156103880364,
+        "f1": 0.899065614959798,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6537437657343467,
+        "f1": 0.7917961656304631,
+        "iou": 0.4466651658901721
+      }
+    },
+    "selection": 0.7104796880611915
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7668952702355398,
+        "f1": 0.898531714705637,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6539331344125848,
+        "f1": 0.7921117800941934,
+        "iou": 0.4466651658901721
+      }
+    },
+    "selection": 0.7104142023240623
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7613476656493309,
+        "f1": 0.8936592306633504,
+        "iou": 0.5628803181283015
+      },
+      "scene": {
+        "score": 0.6594362008068938,
+        "f1": 0.800068620414321,
+        "iou": 0.4484875713957529
+      }
+    },
+    "selection": 0.7103919332281123
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7655047337154296,
+        "f1": 0.8992789392179636,
+        "iou": 0.5648434254616286
+      },
+      "scene": {
+        "score": 0.6552671151424738,
+        "f1": 0.7960659499237435,
+        "iou": 0.4440688629705693
+      }
+    },
+    "selection": 0.7103859244289517
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7630619760767188,
+        "f1": 0.9047350059503432,
+        "iou": 0.5505524312662822
+      },
+      "scene": {
+        "score": 0.6576889429329815,
+        "f1": 0.8031834583445878,
+        "iou": 0.4394471698155723
+      }
+    },
+    "selection": 0.7103754595048501
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7671199943601925,
+        "f1": 0.8998334308372335,
+        "iou": 0.5680498396446308
+      },
+      "scene": {
+        "score": 0.6535176818085886,
+        "f1": 0.7946192051907461,
+        "iou": 0.4418653967353523
+      }
+    },
+    "selection": 0.7103188380843906
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7641390450126414,
+        "f1": 0.8958287615124008,
+        "iou": 0.5666044702630023
+      },
+      "scene": {
+        "score": 0.6562540219576419,
+        "f1": 0.7950273979617966,
+        "iou": 0.44809395795141
+      }
+    },
+    "selection": 0.7101965334851417
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7676756870895142,
+        "f1": 0.9001381962873316,
+        "iou": 0.5689819232927882
+      },
+      "scene": {
+        "score": 0.6527077173329021,
+        "f1": 0.7931631440235647,
+        "iou": 0.44202457729690847
+      }
+    },
+    "selection": 0.7101917022112081
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7655275684909724,
+        "f1": 0.8996135513109441,
+        "iou": 0.5643985942610146
+      },
+      "scene": {
+        "score": 0.6547114955458857,
+        "f1": 0.7958315889812769,
+        "iou": 0.4430313553927989
+      }
+    },
+    "selection": 0.710119532018429
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7593297850852254,
+        "f1": 0.9035334848909242,
+        "iou": 0.5430242353766774
+      },
+      "scene": {
+        "score": 0.6608982033060876,
+        "f1": 0.8063446229845366,
+        "iou": 0.44272857378841435
+      }
+    },
+    "selection": 0.7101139941956565
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7666529471466563,
+        "f1": 0.8986369997110362,
+        "iou": 0.5686768683000867
+      },
+      "scene": {
+        "score": 0.6533736495956819,
+        "f1": 0.7933375787408351,
+        "iou": 0.443427755877952
+      }
+    },
+    "selection": 0.7100132983711691
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7649895808451512,
+        "f1": 0.8975951511147384,
+        "iou": 0.5660812254407703
+      },
+      "scene": {
+        "score": 0.6550193076896305,
+        "f1": 0.7938256253859091,
+        "iou": 0.44680983114521244
+      }
+    },
+    "selection": 0.7100044442673908
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7620268636631912,
+        "f1": 0.9030098185944639,
+        "iou": 0.5505524312662822
+      },
+      "scene": {
+        "score": 0.6578541786928249,
+        "f1": 0.803086503667165,
+        "iou": 0.44000569123131483
+      }
+    },
+    "selection": 0.7099405211780081
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7690800648933297,
+        "f1": 0.9021730391352867,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.65077486446317,
+        "f1": 0.7937520128824477,
+        "iou": 0.4363091418342534
+      }
+    },
+    "selection": 0.7099274646782499
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7648899278030881,
+        "f1": 0.8973180197176315,
+        "iou": 0.5662477899312729
+      },
+      "scene": {
+        "score": 0.6549164658486475,
+        "f1": 0.7919796834396409,
+        "iou": 0.4493216394621573
+      }
+    },
+    "selection": 0.7099031968258678
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7623601163522749,
+        "f1": 0.8995150062763894,
+        "iou": 0.5566277814661031
+      },
+      "scene": {
+        "score": 0.6574151323424051,
+        "f1": 0.8003148118451651,
+        "iou": 0.4430656130882651
+      }
+    },
+    "selection": 0.70988762434734
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7608661610727898,
+        "f1": 0.9025376276607175,
+        "iou": 0.5483589611908982
+      },
+      "scene": {
+        "score": 0.6588597735884337,
+        "f1": 0.802745385718857,
+        "iou": 0.4430313553927989
+      }
+    },
+    "selection": 0.7098629673306118
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7614490417442448,
+        "f1": 0.8890882248956073,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6582607179013876,
+        "f1": 0.7832527019400468,
+        "iou": 0.47077274184339885
+      }
+    },
+    "selection": 0.7098548798228161
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7656456196142187,
+        "f1": 0.8964489636701019,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6539501622266197,
+        "f1": 0.7922359363390545,
+        "iou": 0.44652150105796773
+      }
+    },
+    "selection": 0.7097978909204192
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7637204528115374,
+        "f1": 0.8942601058671538,
+        "iou": 0.5679109732281128
+      },
+      "scene": {
+        "score": 0.6557491662205295,
+        "f1": 0.7910899974407672,
+        "iou": 0.4527379193901728
+      }
+    },
+    "selection": 0.7097348095160334
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7644018810353332,
+        "f1": 0.8954050522648083,
+        "iou": 0.5678971241911206
+      },
+      "scene": {
+        "score": 0.6550585674679373,
+        "f1": 0.7908780012824471,
+        "iou": 0.4513294167461727
+      }
+    },
+    "selection": 0.7097302242516352
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7628055068057547,
+        "f1": 0.8917154423226616,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6565948050502779,
+        "f1": 0.7906452748579188,
+        "iou": 0.4555191003388166
+      }
+    },
+    "selection": 0.7097001559280163
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.765310825974834,
+        "f1": 0.8973180197176315,
+        "iou": 0.5673000353606379
+      },
+      "scene": {
+        "score": 0.6539218218563951,
+        "f1": 0.7895615716389871,
+        "iou": 0.450462197182507
+      }
+    },
+    "selection": 0.7096163239156146
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7638703300172329,
+        "f1": 0.8982100063579008,
+        "iou": 0.5623608155062313
+      },
+      "scene": {
+        "score": 0.6553120985631019,
+        "f1": 0.7983171740339172,
+        "iou": 0.4408044853568791
+      }
+    },
+    "selection": 0.7095912142901675
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7600448418708277,
+        "f1": 0.8871143340977834,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6591025321362746,
+        "f1": 0.7907004540706368,
+        "iou": 0.46170564923473134
+      }
+    },
+    "selection": 0.7095736870035512
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7642728201932943,
+        "f1": 0.8964005500283103,
+        "iou": 0.5660812254407703
+      },
+      "scene": {
+        "score": 0.6548139788021342,
+        "f1": 0.793388999980834,
+        "iou": 0.4469514470340845
+      }
+    },
+    "selection": 0.7095433994977143
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7646537554546904,
+        "f1": 0.9022517781611765,
+        "iou": 0.5582567213949612
+      },
+      "scene": {
+        "score": 0.654254275198034,
+        "f1": 0.8027059462546347,
+        "iou": 0.431576768613133
+      }
+    },
+    "selection": 0.7094540153263622
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7665603244874563,
+        "f1": 0.8988914150246784,
+        "iou": 0.568063688681623
+      },
+      "scene": {
+        "score": 0.6522546621215033,
+        "f1": 0.7913586634650247,
+        "iou": 0.4435986601062211
+      }
+    },
+    "selection": 0.7094074933044798
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7629046974157802,
+        "f1": 0.8957276242649161,
+        "iou": 0.5636703071420761
+      },
+      "scene": {
+        "score": 0.65564745744935,
+        "f1": 0.7961527492003992,
+        "iou": 0.44488951982277614
+      }
+    },
+    "selection": 0.709276077432565
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7648808186167266,
+        "f1": 0.8968391276752721,
+        "iou": 0.5669433550289085
+      },
+      "scene": {
+        "score": 0.6536198926994672,
+        "f1": 0.7870639940421872,
+        "iou": 0.4534537406853872
+      }
+    },
+    "selection": 0.7092503556580969
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7613105940417495,
+        "f1": 0.9071421569428333,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.6570807323091853,
+        "f1": 0.801797426361099,
+        "iou": 0.44000569123131483
+      }
+    },
+    "selection": 0.7091956631754675
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7658938236980152,
+        "f1": 0.8971591912768384,
+        "iou": 0.5689957723297803
+      },
+      "scene": {
+        "score": 0.6524542334266638,
+        "f1": 0.7933304647160069,
+        "iou": 0.4411398864926492
+      }
+    },
+    "selection": 0.7091740285623395
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7566688858625742,
+        "f1": 0.8990395343196701,
+        "iou": 0.5431129131769306
+      },
+      "scene": {
+        "score": 0.6616429555759676,
+        "f1": 0.807026689751076,
+        "iou": 0.44356735431330496
+      }
+    },
+    "selection": 0.7091559207192709
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7635766276674917,
+        "f1": 0.8983730309866307,
+        "iou": 0.5613820226887832
+      },
+      "scene": {
+        "score": 0.654579098113237,
+        "f1": 0.7970346102041497,
+        "iou": 0.44089582997686805
+      }
+    },
+    "selection": 0.7090778628903643
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7623303377048842,
+        "f1": 0.8916712209203396,
+        "iou": 0.5683190128817012
+      },
+      "scene": {
+        "score": 0.6557866541491509,
+        "f1": 0.786989613525669,
+        "iou": 0.458982215084374
+      }
+    },
+    "selection": 0.7090584959270176
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7648375434904809,
+        "f1": 0.8985849746133531,
+        "iou": 0.5642163968061727
+      },
+      "scene": {
+        "score": 0.6532527910190177,
+        "f1": 0.7944419875315634,
+        "iou": 0.4414689962501992
+      }
+    },
+    "selection": 0.7090451672547493
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7619026389430867,
+        "f1": 0.9078215746540261,
+        "iou": 0.5430242353766774
+      },
+      "scene": {
+        "score": 0.6561445186785637,
+        "f1": 0.800237070310063,
+        "iou": 0.44000569123131483
+      }
+    },
+    "selection": 0.7090235788108252
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7660202879570503,
+        "f1": 0.9001381962873316,
+        "iou": 0.5648434254616286
+      },
+      "scene": {
+        "score": 0.6519850034690822,
+        "f1": 0.7923858005796297,
+        "iou": 0.4413838078032608
+      }
+    },
+    "selection": 0.7090026457130663
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7600814313683852,
+        "f1": 0.9047862286961905,
+        "iou": 0.5430242353766774
+      },
+      "scene": {
+        "score": 0.6576889429329815,
+        "f1": 0.8031834583445878,
+        "iou": 0.4394471698155723
+      }
+    },
+    "selection": 0.7088851871506834
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7644185300253936,
+        "f1": 0.8967140779151224,
+        "iou": 0.5659752081908007
+      },
+      "scene": {
+        "score": 0.6533041824673773,
+        "f1": 0.7935110093068367,
+        "iou": 0.4429939422081883
+      }
+    },
+    "selection": 0.7088613562463855
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7674777439574239,
+        "f1": 0.9076863230454881,
+        "iou": 0.5571648753253273
+      },
+      "scene": {
+        "score": 0.6501402037626188,
+        "f1": 0.7991998962027507,
+        "iou": 0.4265506651024212
+      }
+    },
+    "selection": 0.7088089738600214
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7628324780667677,
+        "f1": 0.8918027385121212,
+        "iou": 0.5693770873987375
+      },
+      "scene": {
+        "score": 0.6546558315834401,
+        "f1": 0.780535516178895,
+        "iou": 0.4658363046902577
+      }
+    },
+    "selection": 0.7087441548251039
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7665414664888937,
+        "f1": 0.9013858946720049,
+        "iou": 0.5642748242142267
+      },
+      "scene": {
+        "score": 0.6506370227869239,
+        "f1": 0.7995459789171191,
+        "iou": 0.4272735885916313
+      }
+    },
+    "selection": 0.7085892446379087
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7671439283008511,
+        "f1": 0.9047947873723148,
+        "iou": 0.5606676396936554
+      },
+      "scene": {
+        "score": 0.6498982681592897,
+        "f1": 0.79858133189062,
+        "iou": 0.4268736725622945
+      }
+    },
+    "selection": 0.7085210982300705
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7619319168276929,
+        "f1": 0.8962244652110476,
+        "iou": 0.5604930942526609
+      },
+      "scene": {
+        "score": 0.6550830082314759,
+        "f1": 0.7984957380691978,
+        "iou": 0.43996391347489305
+      }
+    },
+    "selection": 0.7085074625295844
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7682333994096272,
+        "f1": 0.9007619299957825,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6485237031763151,
+        "f1": 0.7955737614400287,
+        "iou": 0.42794861578074506
+      }
+    },
+    "selection": 0.7083785512929712
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7636557868577498,
+        "f1": 0.8951055569036641,
+        "iou": 0.5664811317888785
+      },
+      "scene": {
+        "score": 0.6527851258935861,
+        "f1": 0.7897294457578146,
+        "iou": 0.4473686460972433
+      }
+    },
+    "selection": 0.708220456375668
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7671075715041112,
+        "f1": 0.8996226802243399,
+        "iou": 0.5683349084237682
+      },
+      "scene": {
+        "score": 0.6490647637595126,
+        "f1": 0.7971060535041578,
+        "iou": 0.42700282914254495
+      }
+    },
+    "selection": 0.708086167631812
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7635283154809508,
+        "f1": 0.8976399821307639,
+        "iou": 0.5623608155062313
+      },
+      "scene": {
+        "score": 0.6524315694908567,
+        "f1": 0.7940844930137689,
+        "iou": 0.4399521842064882
+      }
+    },
+    "selection": 0.7079799424859037
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7620319701410045,
+        "f1": 0.8963912207332336,
+        "iou": 0.5604930942526609
+      },
+      "scene": {
+        "score": 0.6534153867534279,
+        "f1": 0.7957163689391178,
+        "iou": 0.43996391347489305
+      }
+    },
+    "selection": 0.7077236784472163
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7646105538090662,
+        "f1": 0.8994638199207806,
+        "iou": 0.5623306546414948
+      },
+      "scene": {
+        "score": 0.6507554239115183,
+        "f1": 0.8000099248110009,
+        "iou": 0.4268736725622945
+      }
+    },
+    "selection": 0.7076829888602922
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7642038801313686,
+        "f1": 0.9022298833353961,
+        "iou": 0.5571648753253273
+      },
+      "scene": {
+        "score": 0.6510516776226902,
+        "f1": 0.800237070310063,
+        "iou": 0.4272735885916313
+      }
+    },
+    "selection": 0.7076277788770294
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7628431048353401,
+        "f1": 0.8947384227768452,
+        "iou": 0.5650001279230825
+      },
+      "scene": {
+        "score": 0.6523697406763858,
+        "f1": 0.7929093405471841,
+        "iou": 0.4415603408701882
+      }
+    },
+    "selection": 0.7076064227558629
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7631262549293484,
+        "f1": 0.8978556169312351,
+        "iou": 0.5610322119265185
+      },
+      "scene": {
+        "score": 0.6518838864254324,
+        "f1": 0.7924805743736244,
+        "iou": 0.44098885450314457
+      }
+    },
+    "selection": 0.7075050706773904
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7621836258317184,
+        "f1": 0.8906090858418059,
+        "iou": 0.5695454358165872
+      },
+      "scene": {
+        "score": 0.6526388083164621,
+        "f1": 0.7780327106744751,
+        "iou": 0.46454795477944266
+      }
+    },
+    "selection": 0.7074112170740903
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7632054013174782,
+        "f1": 0.8973374740663058,
+        "iou": 0.5620072921942367
+      },
+      "scene": {
+        "score": 0.6514181876916849,
+        "f1": 0.7922092649725225,
+        "iou": 0.44023157177042843
+      }
+    },
+    "selection": 0.7073117945045815
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7598003045918467,
+        "f1": 0.9057292586704351,
+        "iou": 0.540906873473964
+      },
+      "scene": {
+        "score": 0.654819770362667,
+        "f1": 0.7987438043849404,
+        "iou": 0.43893371932925684
+      }
+    },
+    "selection": 0.7073100374772568
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7652185208678975,
+        "f1": 0.9048875802823595,
+        "iou": 0.5557149317462046
+      },
+      "scene": {
+        "score": 0.6493264813081745,
+        "f1": 0.7998054687679155,
+        "iou": 0.42360800011856314
+      }
+    },
+    "selection": 0.7072725010880361
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7659279592152197,
+        "f1": 0.9007122124307031,
+        "iou": 0.5637515793919948
+      },
+      "scene": {
+        "score": 0.648507060817195,
+        "f1": 0.7962532984271438,
+        "iou": 0.426887704402272
+      }
+    },
+    "selection": 0.7072175100162074
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7629998491662597,
+        "f1": 0.9046314610995783,
+        "iou": 0.5505524312662822
+      },
+      "scene": {
+        "score": 0.6514260555573262,
+        "f1": 0.8035305851758243,
+        "iou": 0.42326926112957913
+      }
+    },
+    "selection": 0.7072129523617929
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7669022979615814,
+        "f1": 0.9000862686074045,
+        "iou": 0.5671263419928467
+      },
+      "scene": {
+        "score": 0.6474772856488203,
+        "f1": 0.7953532820412933,
+        "iou": 0.42566329106011097
+      }
+    },
+    "selection": 0.7071897918052008
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7690575886808588,
+        "f1": 0.9024844086626563,
+        "iou": 0.5689173587081624
+      },
+      "scene": {
+        "score": 0.645131268715334,
+        "f1": 0.789051564526672,
+        "iou": 0.42925082499832695
+      }
+    },
+    "selection": 0.7070944286980965
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7672707722127037,
+        "f1": 0.8996759408457764,
+        "iou": 0.5686630192630944
+      },
+      "scene": {
+        "score": 0.6468641484882983,
+        "f1": 0.7939042071113249,
+        "iou": 0.4263040605537586
+      }
+    },
+    "selection": 0.7070674603505009
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7632548916600387,
+        "f1": 0.8924644170798017,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6508528179878544,
+        "f1": 0.7901955932588005,
+        "iou": 0.44183865508143544
+      }
+    },
+    "selection": 0.7070538548239466
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7615558778886276,
+        "f1": 0.9083478903740342,
+        "iou": 0.5413678591605177
+      },
+      "scene": {
+        "score": 0.6525262175874615,
+        "f1": 0.7971692835483654,
+        "iou": 0.435561618646106
+      }
+    },
+    "selection": 0.7070410477380445
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7626750719518904,
+        "f1": 0.9006577314470092,
+        "iou": 0.5557010827092123
+      },
+      "scene": {
+        "score": 0.651248228909573,
+        "f1": 0.8005646557882009,
+        "iou": 0.4272735885916313
+      }
+    },
+    "selection": 0.7069616504307317
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7642115002145262,
+        "f1": 0.8940587646706143,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6494801844693401,
+        "f1": 0.7894337484697955,
+        "iou": 0.4395498384686568
+      }
+    },
+    "selection": 0.7068458423419332
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7658780986987378,
+        "f1": 0.8999012141901439,
+        "iou": 0.5648434254616286
+      },
+      "scene": {
+        "score": 0.6477960323691946,
+        "f1": 0.7946270867145714,
+        "iou": 0.4275494508511294
+      }
+    },
+    "selection": 0.7068370655339662
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7654810544928015,
+        "f1": 0.9027512284053214,
+        "iou": 0.5595757936240217
+      },
+      "scene": {
+        "score": 0.6481623282336638,
+        "f1": 0.7984957380691978,
+        "iou": 0.4226622134803629
+      }
+    },
+    "selection": 0.7068216913632326
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7683416270638638,
+        "f1": 0.9012388635532528,
+        "iou": 0.5689957723297803
+      },
+      "scene": {
+        "score": 0.645285306938896,
+        "f1": 0.7886235658004535,
+        "iou": 0.4302779186465597
+      }
+    },
+    "selection": 0.7068134670013799
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7662972401086441,
+        "f1": 0.9009788507049223,
+        "iou": 0.5642748242142267
+      },
+      "scene": {
+        "score": 0.647071584949841,
+        "f1": 0.7943266843740777,
+        "iou": 0.4261889358134857
+      }
+    },
+    "selection": 0.7066844125292425
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7664944078400869,
+        "f1": 0.8987907866370577,
+        "iou": 0.5680498396446308
+      },
+      "scene": {
+        "score": 0.64686618698223,
+        "f1": 0.7931631440235647,
+        "iou": 0.42742075142022795
+      }
+    },
+    "selection": 0.7066802974111585
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7658638140859609,
+        "f1": 0.8989411635224197,
+        "iou": 0.5662477899312729
+      },
+      "scene": {
+        "score": 0.6473165135413403,
+        "f1": 0.791359830320836,
+        "iou": 0.43125153837209673
+      }
+    },
+    "selection": 0.7065901638136507
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7634381327163313,
+        "f1": 0.9053619336830309,
+        "iou": 0.5505524312662822
+      },
+      "scene": {
+        "score": 0.6497086524215185,
+        "f1": 0.8006682466161448,
+        "iou": 0.42326926112957913
+      }
+    },
+    "selection": 0.7065733925689249
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7662636486843821,
+        "f1": 0.905662830923752,
+        "iou": 0.5571648753253273
+      },
+      "scene": {
+        "score": 0.6463740319374902,
+        "f1": 0.7959582515044552,
+        "iou": 0.42199770258704283
+      }
+    },
+    "selection": 0.7063188403109362
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7621256251493967,
+        "f1": 0.9085005421222453,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.6501905166878534,
+        "f1": 0.801099006116208,
+        "iou": 0.4238277825453217
+      }
+    },
+    "selection": 0.706158070918625
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7643786436089888,
+        "f1": 0.903845847423661,
+        "iou": 0.5551778378869804
+      },
+      "scene": {
+        "score": 0.6478379253609752,
+        "f1": 0.7974089782525221,
+        "iou": 0.42348134602365495
+      }
+    },
+    "selection": 0.706108284484982
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7609300077714306,
+        "f1": 0.8882231682742503,
+        "iou": 0.569990267017201
+      },
+      "scene": {
+        "score": 0.6512558467072033,
+        "f1": 0.7742852459016394,
+        "iou": 0.4667117479155491
+      }
+    },
+    "selection": 0.7060929272393169
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.763287734161098,
+        "f1": 0.9007122060762733,
+        "iou": 0.557151026288335
+      },
+      "scene": {
+        "score": 0.6484572195195044,
+        "f1": 0.7969865051591001,
+        "iou": 0.42566329106011097
+      }
+    },
+    "selection": 0.7058724768403012
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7662268622026318,
+        "f1": 0.9003009859885833,
+        "iou": 0.5651156765237045
+      },
+      "scene": {
+        "score": 0.6454439322562403,
+        "f1": 0.7926978566030873,
+        "iou": 0.4245630457359698
+      }
+    },
+    "selection": 0.705835397229436
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7668002724365016,
+        "f1": 0.9013858946720049,
+        "iou": 0.5649218390832467
+      },
+      "scene": {
+        "score": 0.6448200217039068,
+        "f1": 0.7907091704931885,
+        "iou": 0.4259862985199844
+      }
+    },
+    "selection": 0.7058101470702043
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.767586931786206,
+        "f1": 0.9006116598805893,
+        "iou": 0.5680498396446308
+      },
+      "scene": {
+        "score": 0.6438970193279796,
+        "f1": 0.7904700982249027,
+        "iou": 0.424037400982595
+      }
+    },
+    "selection": 0.7057419755570928
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7654346562860346,
+        "f1": 0.897413360575964,
+        "iou": 0.5674665998511405
+      },
+      "scene": {
+        "score": 0.6459782537781492,
+        "f1": 0.7872371049542196,
+        "iou": 0.4340899770140437
+      }
+    },
+    "selection": 0.705706455032092
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.764476019343818,
+        "f1": 0.9026834486894786,
+        "iou": 0.5571648753253273
+      },
+      "scene": {
+        "score": 0.6469206215714887,
+        "f1": 0.7956491809222667,
+        "iou": 0.4238277825453217
+      }
+    },
+    "selection": 0.7056983204576533
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7659633595458024,
+        "f1": 0.8969785302227413,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6454219416061445,
+        "f1": 0.7870718442856128,
+        "iou": 0.43294708758694206
+      }
+    },
+    "selection": 0.7056926505759735
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7661131424684587,
+        "f1": 0.8980350140597992,
+        "iou": 0.568230335081448
+      },
+      "scene": {
+        "score": 0.6450905422582718,
+        "f1": 0.7863082991855542,
+        "iou": 0.43326390686734817
+      }
+    },
+    "selection": 0.7056018423633652
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7643333267891816,
+        "f1": 0.9028036903379006,
+        "iou": 0.5566277814661031
+      },
+      "scene": {
+        "score": 0.6468393231478777,
+        "f1": 0.7969865051591001,
+        "iou": 0.42161855013104443
+      }
+    },
+    "selection": 0.7055863249685297
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7615771164011818,
+        "f1": 0.8982100063579008,
+        "iou": 0.5566277814661031
+      },
+      "scene": {
+        "score": 0.6493819418074287,
+        "f1": 0.7977114334108665,
+        "iou": 0.426887704402272
+      }
+    },
+    "selection": 0.7054795291043052
+  },
+  {
+    "ensemble": "v17",
+    "weights": {
+      "spectral_et": 0.125,
+      "spectral_hg": 0.125,
+      "sam_et": 0.375,
+      "sam_hg": 0.375
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7601131652706314,
+        "f1": 0.895600006520924,
+        "iou": 0.5568829033951926
+      },
+      "scene": {
+        "score": 0.6506202613141483,
+        "f1": 0.7922757546925007,
+        "iou": 0.4381370212466197
+      }
+    },
+    "selection": 0.7053667132923899
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7676940450242232,
+        "f1": 0.9028755156515409,
+        "iou": 0.5649218390832467
+      },
+      "scene": {
+        "score": 0.6430016351356336,
+        "f1": 0.7870480017872662,
+        "iou": 0.42693208515818454
+      }
+    },
+    "selection": 0.7053478400799285
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7675212741671735,
+        "f1": 0.900381900224324,
+        "iou": 0.568230335081448
+      },
+      "scene": {
+        "score": 0.6430205313752055,
+        "f1": 0.7847668679506369,
+        "iou": 0.43040102651205847
+      }
+    },
+    "selection": 0.7052709027711895
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7659357032205074,
+        "f1": 0.8969324363472495,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.644564274587197,
+        "f1": 0.7857112809903133,
+        "iou": 0.43284376498252264
+      }
+    },
+    "selection": 0.7052499889038522
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7632637517394869,
+        "f1": 0.9059891237330324,
+        "iou": 0.5491756937491689
+      },
+      "scene": {
+        "score": 0.647010942122039,
+        "f1": 0.7964302395986507,
+        "iou": 0.4228819959071215
+      }
+    },
+    "selection": 0.7051373469307629
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7604944774543929,
+        "f1": 0.9057819626305723,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.649753975431163,
+        "f1": 0.8007437849655523,
+        "iou": 0.42326926112957913
+      }
+    },
+    "selection": 0.705124226442778
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.25,
+    "scores": {
+      "window": {
+        "score": 0.7646890124409136,
+        "f1": 0.8948546183812599,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6455029049906121,
+        "f1": 0.7846634946787943,
+        "iou": 0.43676202045833906
+      }
+    },
+    "selection": 0.7050959587157628
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.760242460085868,
+        "f1": 0.9053619336830309,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.649881947721009,
+        "f1": 0.8005847245048006,
+        "iou": 0.4238277825453217
+      }
+    },
+    "selection": 0.7050622039034385
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7613105940417495,
+        "f1": 0.9071421569428333,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.6487350856964257,
+        "f1": 0.7986732877971616,
+        "iou": 0.4238277825453217
+      }
+    },
+    "selection": 0.7050228398690876
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7654602291238325,
+        "f1": 0.8996135513109441,
+        "iou": 0.564230245843165
+      },
+      "scene": {
+        "score": 0.6445608105052841,
+        "f1": 0.7905820797907128,
+        "iou": 0.42552890657714104
+      }
+    },
+    "selection": 0.7050105198145583
+  },
+  {
+    "ensemble": "cat4_balanced_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat4_balanced": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7624421176251065,
+        "f1": 0.9090280295817617,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.6475129410241242,
+        "f1": 0.7973510279446978,
+        "iou": 0.42275581064326373
+      }
+    },
+    "selection": 0.7049775293246153
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7676828500674934,
+        "f1": 0.9008733339850752,
+        "iou": 0.5678971241911206
+      },
+      "scene": {
+        "score": 0.6422656672728659,
+        "f1": 0.788166603546774,
+        "iou": 0.4234142628620037
+      }
+    },
+    "selection": 0.7049742586701797
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7663616934542307,
+        "f1": 0.9014351028290546,
+        "iou": 0.5637515793919948
+      },
+      "scene": {
+        "score": 0.6435677320890236,
+        "f1": 0.7907091704931885,
+        "iou": 0.4228555744827765
+      }
+    },
+    "selection": 0.7049647127716272
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7646198532044908,
+        "f1": 0.9032720016720879,
+        "iou": 0.5566416305030953
+      },
+      "scene": {
+        "score": 0.6449286586234638,
+        "f1": 0.7936337320443498,
+        "iou": 0.4218710484921347
+      }
+    },
+    "selection": 0.7047742559139774
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7647199213249875,
+        "f1": 0.9040565810441761,
+        "iou": 0.5557149317462046
+      },
+      "scene": {
+        "score": 0.6446979665321604,
+        "f1": 0.7956387022769954,
+        "iou": 0.41828686291490796
+      }
+    },
+    "selection": 0.7047089439285739
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7596772655672309,
+        "f1": 0.9044199428186357,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.6497402059022921,
+        "f1": 0.8013513601762341,
+        "iou": 0.4223234744913789
+      }
+    },
+    "selection": 0.7047087357347614
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7601045165874765,
+        "f1": 0.9016903608657635,
+        "iou": 0.5477257501700461
+      },
+      "scene": {
+        "score": 0.6492347468579583,
+        "f1": 0.800136580825183,
+        "iou": 0.4228819959071215
+      }
+    },
+    "selection": 0.7046696317227175
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7631806525922833,
+        "f1": 0.9008733339850752,
+        "iou": 0.5566416305030953
+      },
+      "scene": {
+        "score": 0.6461183609089125,
+        "f1": 0.7949860447612975,
+        "iou": 0.42281683513033486
+      }
+    },
+    "selection": 0.7046495067505979
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7609337474314782,
+        "f1": 0.9065140792590478,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.6482907227139395,
+        "f1": 0.8008112743739187,
+        "iou": 0.41950989522397064
+      }
+    },
+    "selection": 0.7046122350727089
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7626829045722529,
+        "f1": 0.8958221493432761,
+        "iou": 0.562974037415718
+      },
+      "scene": {
+        "score": 0.646528681215095,
+        "f1": 0.7942637516403838,
+        "iou": 0.4249260755771619
+      }
+    },
+    "selection": 0.704605792893674
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7638703300172329,
+        "f1": 0.8982100063579008,
+        "iou": 0.5623608155062313
+      },
+      "scene": {
+        "score": 0.6453149169200556,
+        "f1": 0.7935405351306781,
+        "iou": 0.422976489604122
+      }
+    },
+    "selection": 0.7045926234686443
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7632831129261719,
+        "f1": 0.8981548840441184,
+        "iou": 0.5609754562492523
+      },
+      "scene": {
+        "score": 0.6458567295146442,
+        "f1": 0.7943812324631194,
+        "iou": 0.4230699750919313
+      }
+    },
+    "selection": 0.7045699212204081
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7598663034462555,
+        "f1": 0.9047350059503432,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.6491271991430153,
+        "f1": 0.7999573346336112,
+        "iou": 0.4228819959071215
+      }
+    },
+    "selection": 0.7044967512946354
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7612484445893903,
+        "f1": 0.9070385745222347,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.647716331137108,
+        "f1": 0.7995957782642279,
+        "iou": 0.4198971604464283
+      }
+    },
+    "selection": 0.7044823878632491
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7670589081787884,
+        "f1": 0.8998334308372335,
+        "iou": 0.5678971241911206
+      },
+      "scene": {
+        "score": 0.6418487807135365,
+        "f1": 0.787751887204442,
+        "iou": 0.42299412097717826
+      }
+    },
+    "selection": 0.7044538444461624
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7626319986683744,
+        "f1": 0.8947384227768452,
+        "iou": 0.5644723625056682
+      },
+      "scene": {
+        "score": 0.6462713063605209,
+        "f1": 0.79127898998216,
+        "iou": 0.4287597809280623
+      }
+    },
+    "selection": 0.7044516525144476
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7650745637452625,
+        "f1": 0.8985619892676852,
+        "iou": 0.5648434254616286
+      },
+      "scene": {
+        "score": 0.6437798657485084,
+        "f1": 0.7879334756800944,
+        "iou": 0.4275494508511294
+      }
+    },
+    "selection": 0.7044272147468855
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7654320557077853,
+        "f1": 0.8998334308372335,
+        "iou": 0.5638299930136128
+      },
+      "scene": {
+        "score": 0.6433113692029798,
+        "f1": 0.7920090328880829,
+        "iou": 0.4202648736753252
+      }
+    },
+    "selection": 0.7043717124553825
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7636000882940146,
+        "f1": 0.8943557472559307,
+        "iou": 0.5674665998511405
+      },
+      "scene": {
+        "score": 0.6449363667835586,
+        "f1": 0.7831608789285954,
+        "iou": 0.43759959856600344
+      }
+    },
+    "selection": 0.7042682275387866
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.3,
+    "scores": {
+      "window": {
+        "score": 0.7648331900168022,
+        "f1": 0.8977944171132675,
+        "iou": 0.5653913493721044
+      },
+      "scene": {
+        "score": 0.6434285220965548,
+        "f1": 0.7848647947659242,
+        "iou": 0.43127411309250063
+      }
+    },
+    "selection": 0.7041308560566785
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7664974044113564,
+        "f1": 0.8985139890138951,
+        "iou": 0.5684725275075484
+      },
+      "scene": {
+        "score": 0.6417029705786756,
+        "f1": 0.7839930920963869,
+        "iou": 0.42826778830210893
+      }
+    },
+    "selection": 0.704100187495016
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.2,
+    "scores": {
+      "window": {
+        "score": 0.7607101423767079,
+        "f1": 0.8882231682742503,
+        "iou": 0.5694406035303943
+      },
+      "scene": {
+        "score": 0.6473502955493792,
+        "f1": 0.7839150485991283,
+        "iou": 0.4425031659747556
+      }
+    },
+    "selection": 0.7040302189630435
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7645619703044048,
+        "f1": 0.8981164532785646,
+        "iou": 0.564230245843165
+      },
+      "scene": {
+        "score": 0.6434982037893286,
+        "f1": 0.789026406904036,
+        "iou": 0.4252058991172677
+      }
+    },
+    "selection": 0.7040300870468668
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7627744356172184,
+        "f1": 0.8951434469993593,
+        "iou": 0.5642209185440068
+      },
+      "scene": {
+        "score": 0.6444534149536292,
+        "f1": 0.7912513297688619,
+        "iou": 0.42425654273078
+      }
+    },
+    "selection": 0.7036139252854238
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7608398663245037,
+        "f1": 0.9063576107474236,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.6461988709355584,
+        "f1": 0.7974089782525221,
+        "iou": 0.41938370996011287
+      }
+    },
+    "selection": 0.7035193686300311
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7625994687676712,
+        "f1": 0.8970154771132839,
+        "iou": 0.5609754562492523
+      },
+      "scene": {
+        "score": 0.6442570188091756,
+        "f1": 0.7921502357039487,
+        "iou": 0.422417193467016
+      }
+    },
+    "selection": 0.7034282437884234
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7634500111289982,
+        "f1": 0.8966612472065423,
+        "iou": 0.5636331570126824
+      },
+      "scene": {
+        "score": 0.6431936734908329,
+        "f1": 0.7889050713707975,
+        "iou": 0.424626576670886
+      }
+    },
+    "selection": 0.7033218423099156
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7600860090387349,
+        "f1": 0.905101181937809,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.646532118389591,
+        "f1": 0.7982526147771664,
+        "iou": 0.41895137380822806
+      }
+    },
+    "selection": 0.703309063714163
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.75921288470639,
+        "f1": 0.9037382432158831,
+        "iou": 0.5424248469421504
+      },
+      "scene": {
+        "score": 0.6473608039461153,
+        "f1": 0.8000767646335869,
+        "iou": 0.41828686291490796
+      }
+    },
+    "selection": 0.7032868443262527
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7625018699428111,
+        "f1": 0.8960909155811705,
+        "iou": 0.562118301485272
+      },
+      "scene": {
+        "score": 0.6435678763617634,
+        "f1": 0.789026406904036,
+        "iou": 0.4253800805483546
+      }
+    },
+    "selection": 0.7030348731522873
+  },
+  {
+    "ensemble": "cat4_balanced_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat4_balanced": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7592356265201664,
+        "f1": 0.9036838777401948,
+        "iou": 0.5425632496901238
+      },
+      "scene": {
+        "score": 0.6464081347671126,
+        "f1": 0.7961402086084786,
+        "iou": 0.4218100240050635
+      }
+    },
+    "selection": 0.7028218806436395
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.7650126184219879,
+        "f1": 0.898167470649267,
+        "iou": 0.5652803400810691
+      },
+      "scene": {
+        "score": 0.6405536790286895,
+        "f1": 0.7845657466672031,
+        "iou": 0.42453557757091925
+      }
+    },
+    "selection": 0.7027831487253386
+  },
+  {
+    "ensemble": "cat4_balanced_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat4_balanced": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7595895085471907,
+        "f1": 0.8998653850792053,
+        "iou": 0.5491756937491689
+      },
+      "scene": {
+        "score": 0.6456981613956719,
+        "f1": 0.7946146193318673,
+        "iou": 0.4223234744913789
+      }
+    },
+    "selection": 0.7026438349714312
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 2.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7617422657591998,
+        "f1": 0.9044199428186357,
+        "iou": 0.5477257501700461
+      },
+      "scene": {
+        "score": 0.6431183425763285,
+        "f1": 0.7938872668235273,
+        "iou": 0.41696495620553026
+      }
+    },
+    "selection": 0.7024303041677642
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 1.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7635274880731618,
+        "f1": 0.8981548840441184,
+        "iou": 0.5615863941167271
+      },
+      "scene": {
+        "score": 0.6408411548833135,
+        "f1": 0.7888530040516128,
+        "iou": 0.41882338113086454
+      }
+    },
+    "selection": 0.7021843214782377
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 3.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7596219044680416,
+        "f1": 0.9044199428186357,
+        "iou": 0.5424248469421504
+      },
+      "scene": {
+        "score": 0.6446455099848747,
+        "f1": 0.7954505677601826,
+        "iou": 0.41843792332191265
+      }
+    },
+    "selection": 0.7021337072264582
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.75,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7643739210520689,
+        "f1": 0.8991568192633211,
+        "iou": 0.5621995737351907
+      },
+      "scene": {
+        "score": 0.639501632117337,
+        "f1": 0.787842687046938,
+        "iou": 0.4169900497229354
+      }
+    },
+    "selection": 0.701937776584703
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7625355343226783,
+        "f1": 0.8974180765251674,
+        "iou": 0.5602117210189447
+      },
+      "scene": {
+        "score": 0.6408282300965746,
+        "f1": 0.789846473726215,
+        "iou": 0.4173008646521141
+      }
+    },
+    "selection": 0.7016818822096265
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.35,
+    "scores": {
+      "window": {
+        "score": 0.764061765527732,
+        "f1": 0.8969724196965742,
+        "iou": 0.5646957842744689
+      },
+      "scene": {
+        "score": 0.6380698130969833,
+        "f1": 0.7795160362387205,
+        "iou": 0.4259004783843774
+      }
+    },
+    "selection": 0.7010657893123576
+  },
+  {
+    "ensemble": "cat5_0.25",
+    "weights": {
+      "spectral_et": 0.09375,
+      "spectral_hg": 0.09375,
+      "sam_et": 0.28125,
+      "sam_hg": 0.28125,
+      "cat5": 0.25
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.759482280883144,
+        "f1": 0.8944082740022278,
+        "iou": 0.5570932912045181
+      },
+      "scene": {
+        "score": 0.6417288017393075,
+        "f1": 0.7889540672080592,
+        "iou": 0.42089090353618
+      }
+    },
+    "selection": 0.7006055413112258
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7615118137422313,
+        "f1": 0.8957118755577558,
+        "iou": 0.5602117210189447
+      },
+      "scene": {
+        "score": 0.6396131230379809,
+        "f1": 0.7878212952952255,
+        "iou": 0.4173008646521141
+      }
+    },
+    "selection": 0.7005624683901062
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7625554131993016,
+        "f1": 0.8967140779151224,
+        "iou": 0.5613174161255707
+      },
+      "scene": {
+        "score": 0.6360640482692498,
+        "f1": 0.7810278402901132,
+        "iou": 0.4186183602379547
+      }
+    },
+    "selection": 0.6993097307342757
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7654657932450477,
+        "f1": 0.8993124658921003,
+        "iou": 0.5646957842744689
+      },
+      "scene": {
+        "score": 0.6311381098284451,
+        "f1": 0.7718971484229287,
+        "iou": 0.41999955193671973
+      }
+    },
+    "selection": 0.6983019515367463
+  },
+  {
+    "ensemble": "cat5_0.5",
+    "weights": {
+      "spectral_et": 0.0625,
+      "spectral_hg": 0.0625,
+      "sam_et": 0.1875,
+      "sam_hg": 0.1875,
+      "cat5": 0.5
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7610620810288347,
+        "f1": 0.8963912207332336,
+        "iou": 0.5580683714722363
+      },
+      "scene": {
+        "score": 0.6350401761145625,
+        "f1": 0.7808333300739616,
+        "iou": 0.41635044517546405
+      }
+    },
+    "selection": 0.6980511285716986
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.4,
+    "scores": {
+      "window": {
+        "score": 0.7636465062318195,
+        "f1": 0.8985325663026521,
+        "iou": 0.5613174161255707
+      },
+      "scene": {
+        "score": 0.6318893933075616,
+        "f1": 0.7772510566769641,
+        "iou": 0.4138468982534575
+      }
+    },
+    "selection": 0.6977679497696905
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.45,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7635829238160448,
+        "f1": 0.8984265956096942,
+        "iou": 0.5613174161255707
+      },
+      "scene": {
+        "score": 0.6315028705521425,
+        "f1": 0.7770484088606319,
+        "iou": 0.41318456308940843
+      }
+    },
+    "selection": 0.6975428971840936
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "markov",
+    "strength": 0.5,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7638933252920184,
+        "f1": 0.8989439314029835,
+        "iou": 0.5613174161255707
+      },
+      "scene": {
+        "score": 0.6311284186240382,
+        "f1": 0.7766396606203737,
+        "iou": 0.4128615556295351
+      }
+    },
+    "selection": 0.6975108719580283
+  },
+  {
+    "ensemble": "cat5_1.0",
+    "weights": {
+      "spectral_et": 0.0,
+      "spectral_hg": 0.0,
+      "sam_et": 0.0,
+      "sam_hg": 0.0,
+      "cat5": 1.0
+    },
+    "method": "local",
+    "strength": 0.0,
+    "threshold": 0.45,
+    "scores": {
+      "window": {
+        "score": 0.7641108640558465,
+        "f1": 0.8982647375109982,
+        "iou": 0.5628800538731191
+      },
+      "scene": {
+        "score": 0.6300973805973726,
+        "f1": 0.7732806852933001,
+        "iou": 0.4153224235534816
+      }
+    },
+    "selection": 0.6971041223266096
+  }
+]

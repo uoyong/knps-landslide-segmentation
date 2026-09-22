@@ -1,0 +1,10 @@
+{
+  "location": "ls_scene_11_w01",
+  "rows": 51,
+  "visible": 26,
+  "elapsed_seconds": 118.05438375473022,
+  "max_logit_difference": 0.0,
+  "max_neck_difference": 0.0,
+  "max_rss_kib": 2683444,
+  "max_gpu_allocated_bytes": 2405494272
+}

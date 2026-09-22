@@ -1,0 +1,43 @@
+# 사용자가 명시적으로 제외 요청한 파일
+/README.md
+/SUBMISSION_HISTORY.md
+
+# 대회 데이터셋 및 캐시 디렉토리
+train/
+cache_embs/
+
+# 100MB 초과 대용량 파일 및 바이너리 (GitHub 파일 크기 제한 대응)
+*.safetensors
+*.so
+training18/vendor/
+
+# 중간 피처 데이터, 대용량 넘파이 배열 및 마스크
+*.npz
+*.pt
+*.pth
+training17/masks/
+training17/pixel_data/
+training17/pixel_oof/
+training17/pixel_oof_scene/
+training18/semantic_data/
+training18/semantic_scene/
+training18/semantic_window/
+training18/refined_scene/
+training18/refined_window/
+training18/temporal_scene/
+training18/prompts/
+
+# 중간 훈련 체크포인트 (training17, training18)
+training17/*.joblib
+training18/*.joblib
+training18/*.cbm
+
+# 로그 파일
+*.log
+
+# 파이썬 캐시 및 IDE/에이전트 메타데이터
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.agents/
+.codex/

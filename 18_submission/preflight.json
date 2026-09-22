@@ -1,0 +1,74 @@
+{
+  "assets/common.py": {
+    "bytes": 11554,
+    "sha256": "9a1462f09d818cd880cdc82142c95ddd7fb5ee221eaf4cbbc659cd62f52d7901"
+  },
+  "assets/config.json": {
+    "bytes": 260,
+    "sha256": "eb69d6b3a8c5eb68dc4ddb4857a12bd95ba89b645cfe01098adb4ef7a6841b79"
+  },
+  "assets/features.py": {
+    "bytes": 3616,
+    "sha256": "d1642580d9acea3b809f593e5e3721c67be342bdec08973845e3f983e9a63f06"
+  },
+  "assets/inference17.py": {
+    "bytes": 7247,
+    "sha256": "832b65b84191e1d01281edd02282900a2c9d5013e2840990c409b5147db401ad"
+  },
+  "assets/inference18.py": {
+    "bytes": 7513,
+    "sha256": "0bb78717da71e1fb43fc7504ff3a8561ca77995df1d06d5706f211c37c15f13c"
+  },
+  "assets/pixel_refine.py": {
+    "bytes": 6333,
+    "sha256": "e4fd806455400ea2b744304f64d0b4d2b9aaaa3fbb841b03f4a6b74a97d4a46d"
+  },
+  "assets/pixel_refiner.joblib": {
+    "bytes": 131491,
+    "sha256": "2891c51abfe7414d44a5d97833b5437014253a08cb4169254fa42106b2445b95"
+  },
+  "assets/refine_features.py": {
+    "bytes": 717,
+    "sha256": "69edfb8579ac0d8dc0b482167db74606bdf4009fc4395e0e162661b39da08602"
+  },
+  "assets/refiner18.joblib": {
+    "bytes": 414985,
+    "sha256": "131ffef0ce9b7026fac1f872b1195895f2c45a63278411f3b2ec2311c3be906b"
+  },
+  "assets/sam3/config.json": {
+    "bytes": 5563,
+    "sha256": "bf3bdbb9110c7b7fd8adaf43cdfa91884c898ccfa4856f9aaf31f6c88c79ac0c"
+  },
+  "assets/sam3/model.safetensors": {
+    "bytes": 1833147076,
+    "sha256": "378e67a00753c3d1149c462e96b9065faa20298966485a2fc6a743ce18e2e318"
+  },
+  "assets/sam_et.joblib": {
+    "bytes": 2163022,
+    "sha256": "10c45fc224960860f1a1e7da4bf42ec651b74d350384d0d25ad658dbd8c2a363"
+  },
+  "assets/sam_hg.joblib": {
+    "bytes": 1277863,
+    "sha256": "12e64ad4967e444352a72ac2f03ae9da1560c113263301e035e75c71c3e47d90"
+  },
+  "assets/semantic_refine.py": {
+    "bytes": 572,
+    "sha256": "11e9d19508f72974ed0d954139ffddc878947f40537b15358a2ac5648b5945bb"
+  },
+  "assets/semantic_refiner.cbm": {
+    "bytes": 516264,
+    "sha256": "20c3ee6186c72d230dec05c294338d1489269fa1b4c7cb86d50cbef36fa7e5cd"
+  },
+  "assets/spectral_et.joblib": {
+    "bytes": 2461525,
+    "sha256": "59d0fe4f155f4828ed03aa73eac31faa20b3a4841f3a796e5f8671e44fc2d9df"
+  },
+  "assets/spectral_hg.joblib": {
+    "bytes": 938632,
+    "sha256": "19497fcdca1ced6c909ae4a75e31faa58fa0f746439c0f9b244263f1cb66f07b"
+  },
+  "assets/temporal_gate.py": {
+    "bytes": 898,
+    "sha256": "a548e0e9c5b0c7527d4b983ef26027370879c3359d087f1f07a96877414912d0"
+  }
+}

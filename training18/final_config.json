@@ -1,0 +1,14 @@
+{
+  "weights": {
+    "spectral_et": 0.125,
+    "spectral_hg": 0.125,
+    "sam_et": 0.375,
+    "sam_hg": 0.375
+  },
+  "gate_method": "markov",
+  "gate_strength": 1.0,
+  "threshold": 0.2,
+  "refiner_mix": 0.5,
+  "semantic_weight": 0.5,
+  "pixel_threshold": 0.5
+}

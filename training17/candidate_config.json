@@ -1,0 +1,13 @@
+{
+  "weights": {
+    "spectral_et": 0.125,
+    "spectral_hg": 0.125,
+    "sam_et": 0.375,
+    "sam_hg": 0.375
+  },
+  "smooth_alpha": 0.45,
+  "threshold": 0.3,
+  "mask_threshold": 1.0,
+  "pixel_weight": 1.0,
+  "pixel_threshold": 0.4
+}
