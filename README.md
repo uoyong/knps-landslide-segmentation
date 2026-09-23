@@ -9,7 +9,7 @@
 
 국립공원공단 산사태 시계열 위성 영상(Sentinel-2 다중분광 밴드)을 활용하여 산사태 발생 여부를 판정하고, 발생 지점의 정확한 경계를 분할(Segmentation)하는 파이프라인입니다.
 
-본 저장소는 최종 5위 달성 모델인 **18차 솔루션(`sam3-context-refine-v18`)**의 추론 패키지(`18_submission/`) 및 학습 파이프라인(`training18/`)을 통합하여 구성했습니다.
+본 repository는 최종 5위 달성 모델인 **18차 솔루션(`sam3-context-refine-v18`)**의 추론 패키지(`18_submission/`) 및 학습 파이프라인(`training18/`)을 통합하여 구성했습니다.
 
 ### 주요 파이프라인 특징
 1. **시계열 다중분광 특징 추출**: Sentinel-2 밴드(RGB, NIR, RedEdge 등) 및 dNDVI 변화량 추출
@@ -38,7 +38,7 @@
 │   ├── final_select.py   # 교차검증 기반 최적 하이퍼파라미터 탐색
 │   ├── full_oof.py       # OOF 예측값 생성
 │   └── build_submission.py # 제출물 자동 패키징
-├── training17/           # 17차 베이스라인 및 분광 정제 파이프라인
+├── training17/           # 17차 베이스라인 모델 학습 
 ├── README.md             # 프로젝트 종합 문서
 └── .gitignore
 ```
