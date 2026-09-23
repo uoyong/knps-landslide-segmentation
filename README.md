@@ -62,14 +62,7 @@ Sentinel-2 시계열 위성 영상 기반 산사태 변화 탐지 및 형상 분
 
 ---
 
-## 4. Results
-
-- **최종 모델**: 18차 (`sam3-context-refine-v18`)
-- **Private Score**: `0.714650707` (최종 5위 달성)
-
----
-
-## 5. How to Run
+## 4. How to Run
 
 ### 추론 (Inference)
 `18_submission/` 디렉토리는 단독 실행이 가능한 형태로 패키징되어 있습니다.
