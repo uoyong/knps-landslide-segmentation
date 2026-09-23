@@ -1,7 +1,7 @@
 # KNPS Landslide Segmentation (2026)
 
 Sentinel-2 시계열 위성 영상 기반 산사태 변화 탐지 및 형상 분할 솔루션  
-(국립공원공단 최종 5위 달성 솔루션)
+18차 Private 점수: `0.714650707` (최종 5위 달성)
 
 ---
 
@@ -62,16 +62,10 @@ Sentinel-2 시계열 위성 영상 기반 산사태 변화 탐지 및 형상 분
 
 ---
 
-## 4. Validation Results
+## 4. Results
 
-공식 평가 산식: `0.6 * Presence Macro-F1 + 0.4 * Shape mIoU`
-
-| 모델 | 검증 방식 | 종합 Score | 비고 |
-| :--- | :--- | :---: | :--- |
-| 17차 (`sam3-spectral-refine`) | 창 분리 (Window CV) | 0.7703 | 분광 픽셀 보정 베이스라인 |
-| 17차 (`sam3-spectral-refine`) | 지역 분리 (Scene CV) | 0.6608 | 지역 일반화 성능 |
-| **18차 (`sam3-context-refine`)** | **창 분리 (Window CV)** | **0.7667** | - |
-| **18차 (`sam3-context-refine`)** | **지역 분리 (Scene CV)** | **0.6732** | **미학습 지역 일반화 대폭 개선 (+0.0124)** |
+- **최종 모델**: 18차 (`sam3-context-refine-v18`)
+- **Private Score**: `0.714650707` (최종 5위 달성)
 
 ---
 
