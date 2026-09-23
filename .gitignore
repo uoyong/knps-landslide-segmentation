@@ -1,5 +1,4 @@
-# 사용자가 명시적으로 제외 요청한 파일
-/README.md
+# 제외 대상 문서
 /SUBMISSION_HISTORY.md
 
 # 대회 데이터셋 및 캐시 디렉토리
